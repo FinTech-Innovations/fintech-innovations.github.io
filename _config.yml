@@ -2,5 +2,6 @@ title: LSU FinTech Lab
 logo: /assets/img/fintech_logo.png
 description: A cloud lab for the study of technological innnovation in finance.
 show_downloads: false
+github.is_user_page: false
 google_analytics:
 theme: jekyll-theme-minimal
