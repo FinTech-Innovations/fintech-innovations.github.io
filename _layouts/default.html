@@ -13,8 +13,8 @@
   </head>
   <body>
     <div class="wrapper">
-      <header style="background:#461D7C; color=white; height:100vh;">
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <header style="background:#461D7C; color:#FDFEFE; height:100vh; text-align:center;">
+        <h1><a href="{{ "/" | absolute_url }}" style="color:#FDFEFE; text-align:center;">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
