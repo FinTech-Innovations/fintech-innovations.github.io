@@ -13,14 +13,21 @@
   </head>
   <body>
     <div class="wrapper">
-      <header style="background:#461D7C; color:#FDFEFE; height:100vh; text-align:center;">
-        <h1><a href="{{ "/" | absolute_url }}" style="color:#FDFEFE; text-align:center;">{{ site.title | default: site.github.repository_name }}</a></h1>
+      <header style="background:#461D7C; color:#FDFEFE; height:100vh;">
+        <h1 style="text-align:center;"><a href="{{ "/" | absolute_url }}" style="color:#FDFEFE;">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" style="width:256px;"/>
         {% endif %}
 
-        <p style="text-align:left; padding:10px">{{ site.description | default: site.github.project_tagline }}</p>
+        <div style="padding:10px;">
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+          
+        </br>
+        <b>Related Courses</b></br>
+        <ul>
+          <li><a href="https://financedatascience.github.io" style="color:#FDFEFE;">FIN 4820 (Nordlund)</a>
+        </ul>
 
         <!--
         {% if site.github.is_project_page %}
@@ -39,6 +46,7 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+        </div>
       </header>
       <section>
 
