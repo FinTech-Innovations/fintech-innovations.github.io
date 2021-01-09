@@ -6,3 +6,5 @@
   background: #461D7C;
   color: #FDFEFE;
 }
+
+@media print { .no-print, .no-print * { display: none !important; } }
