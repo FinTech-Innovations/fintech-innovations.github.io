@@ -4,7 +4,7 @@ layout: default
 
 # About the Lab
 
-Welcome to the FinTech Lab @ LSU!
+Welcome to the FinTech Innovations Group!
 
 This lab is a cloud-based, modern laboratory environment for the study of technological innovations in the finance industry.
 
