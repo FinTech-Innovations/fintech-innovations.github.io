@@ -2,20 +2,22 @@
 layout: default
 ---
 
-# About the Lab
+<style>
+.filter-purple{
+  filter: invert(15%) sepia(30%) saturate(6073%) hue-rotate(256deg) brightness(84%) contrast(99%);
+  width: 30px;
+}
+</style>
 
-Welcome to the FinTech Innovations Group!
+# FinTech Innovations Lab
 
-This lab is a cloud-based, modern laboratory environment for the study of technological innovations in the finance industry.
+Welcome to FI.lab, a research group at Louisiana State University that employs modern data science tools and statistical techniques to study issues of interest to managers, regulators, and policymakers.
 
-The lab was designed by [Dr. James Nordlund](https://nordlund.ai) and [Dr. Dimuthu Ratnadiwakara](https://sites.google.com/view/dimuthu-ratnadiwakara).  These two professors serve as co-admins of the lab.
+![Sell signal](/assets/img/sell_signal.png)
 
-# Accessing the Lab
+If you are looking for more general information about the Department of Finance at Louisiana State University, please visit their [website](https://www.lsu.edu/business/finance/index.php).  Alternatively, you may find the department on the social media resources listed below.
 
-The alpha version of the lab space piggybacked on extant cloud technologies; FinTech courses utilized AWS, Azure, or a third-party intermediary.  An in-house cloud environment is under development that will eventually allow for enhanced educational opportunities within FinTech courses.  Once the new lab is operational, students and faculty may access the lab either from a computer on-campus or from an off-campus computer that is connected to LSU's [virtual private network](https://networking.grok.lsu.edu/Browse.aspx?searchString=&searchDomain=Current&parentCategoryId=3682).
-
-# The "What" and "Why" of FinTech
-
-We define FinTech as the implementation of new technology with the intent to improve the efficiency or performance of financial products or services.  The adaptation of technological innovation to financial problems includes, but is not limited to, payment systems, credit analysis, investment management, and blockchain ledgers.
-
-There are myriad examples of the usefulness of modern technology in finance.  Consider the disclosure of risk factors in a firm's annual report.  Finance is about the study of risk and return, after all!  In 2019, a total of 52 *million* words were used by companies in their risk disclosure.  To read over all of these disclosures within the span of one year, a human would need to read the equivalent of all seven Harry Potter books *each and every week*.  A computer, in contrast, can read an analyze the totality of these disclosures in a matter of minutes!   Exctracting information from these disclosures is thus best left to the machines.
+<a href="https://twitter.com/financelsu"><img src="/assets/svg/004-twitter.svg" class="filter-purple"/></a>
+<a href="https://www.linkedin.com/company/department-of-finance-at-lsu/"><img src="/assets/svg/015-linkedin.svg" class="filter-purple"/></a>
+<a href="https://www.instagram.com/financelsu/"><img src="/assets/svg/014-instagram.svg" class="filter-purple"/></a>
+<a href="https://www.facebook.com/lsufinancedepartment/"><img src="/assets/svg/013-facebook.svg" class="filter-purple"/></a>
