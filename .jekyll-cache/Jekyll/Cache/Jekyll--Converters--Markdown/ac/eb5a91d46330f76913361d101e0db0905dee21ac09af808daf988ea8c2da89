@@ -1,0 +1,135 @@
+I"H<style>
+.filterDiv {
+  margin-bottom: 15px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #BFC2C5;
+}
+
+.btn.active {
+  background-color: #919198;
+  color: white;
+}
+
+.title{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a{
+  color: #461D7C ;
+}
+
+
+</style>
+
+<h1 id="research">Research</h1>
+
+<!--<div style="font-size:18px;"> FI.lab members study the impact of technological innovations in finance. </div>-->
+
+<div style="font-size:18px;">FI.lab member research utilizing modern data science techniques is listed here.  Curious about these tools?  Learn more over at <a href="/faq.html#DataScience">F.A.Q.</a></div>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show All Tools</button>
+  <!-- methods -->
+  <br /> <button class="btn" onclick="filterSelection('ml')"> Machine Learning</button>
+  <br /> <button class="btn" onclick="filterSelection('nlp')"> Natural Language Processing</button>
+  <br /> <button class="btn" onclick="filterSelection('sna')"> Social Network Analysis</button>
+  
+  <!-- topics -->
+  <br />
+</div>
+
+<div class="container">
+
+  <div class="filterDiv nlp">
+    <div class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3077632">The Disclosure of Cybersecurity Risk</a></div>
+    <b>J. Nordlund</b>
+  </div>
+  <div class="filterDiv nlp">
+    <div class="title"><a href="https://papers.ssrn.com/abstract=3209882">CEO Narcissism, Human Capital, and Firm Value</a></div>
+    S. Johnson, A. Kolasinski, <b>J. Nordlund</b>
+  </div>
+  <div class="filterDiv nlp_ml">
+    <div class="title">Auditor Liability and Management Earnings Forecasts</div>
+    Z. Chen, <b>J. Nordlund</b>, N. Yang
+  </div>
+  <div class="filterDiv sna">
+    <div class="title">Reputation and the Labor Market for Corporate Directors</div>
+    S. Bindal, <b>J. Nordlund</b>
+  </div>
+  
+  <div class="filterDiv sna">
+    <div class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3699477">The Impact of Social Networks on Flood Insurance Take-up and Climate Risk Perceptions after Hurricane Harvey</a></div>
+    <b>D. Ratnadiwakara</b>
+  </div>
+  
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+:ET

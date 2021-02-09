@@ -1,36 +1,26 @@
----
-layout: default
----
-
-<style>
+I"Ë<style>
 .filter-purple{
   filter: invert(15%) sepia(30%) saturate(6073%) hue-rotate(256deg) brightness(84%) contrast(99%);
   width: 30px;
 }
 </style>
 
-# FinTech Innovations Lab
+<h1 id="fintech-innovations-lab">FinTech Innovations Lab</h1>
 
-Welcome to FI.lab, a research group at Louisiana State University that employs modern data science tools and statistical techniques to study issues of interest to managers, regulators, and policymakers.
+<p>Welcome to FI.lab, a research group at Louisiana State University that employs modern data science tools and statistical techniques to study issues of interest to managers, regulators, and policymakers.</p>
 
-![Sell signal](/assets/img/sell_signal.png)
+<p><img src="/assets/img/sell_signal.png" alt="Sell signal" /></p>
 
-If you are looking for more general information about the Department of Finance at Louisiana State University, please visit their [website](https://www.lsu.edu/business/finance/index.php).  Alternatively, you may find the department on the social media resources listed below.
+<p>If you are looking for more general information about the Department of Finance at Louisiana State University, please visit their <a href="https://www.lsu.edu/business/finance/index.php">website</a>.  Alternatively, you may find the department on the social media resources listed below.</p>
 
-<a href="https://twitter.com/financelsu"><img src="/assets/svg/004-twitter.svg" class="filter-purple"/></a>
-<a href="https://www.linkedin.com/company/department-of-finance-at-lsu/"><img src="/assets/svg/015-linkedin.svg" class="filter-purple"/></a>
-<a href="https://www.instagram.com/financelsu/"><img src="/assets/svg/014-instagram.svg" class="filter-purple"/></a>
-<a href="https://www.facebook.com/lsufinancedepartment/"><img src="/assets/svg/013-facebook.svg" class="filter-purple"/></a>
+<p><a href="https://twitter.com/financelsu"><img src="/assets/svg/004-twitter.svg" class="filter-purple" /></a>
+<a href="https://www.linkedin.com/company/department-of-finance-at-lsu/"><img src="/assets/svg/015-linkedin.svg" class="filter-purple" /></a>
+<a href="https://www.instagram.com/financelsu/"><img src="/assets/svg/014-instagram.svg" class="filter-purple" /></a>
+<a href="https://www.facebook.com/lsufinancedepartment/"><img src="/assets/svg/013-facebook.svg" class="filter-purple" /></a></p>
 
-
-
-
-
-
-<p style="margin-top:3cm;">
+<p style="margin-top:5cm;">
 <small>
-Webmaster: james<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="13" height="13" fill="#BFC2C5">
+Webmaster: james<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="13" height="13" fill="#BFC2C5">
 	<g>
 		<g>
 			<path d="M334.963,295.151l48.188-166.366h-27.648l-9.6,34.44c-3.985-11.179-10.163-20.702-18.475-28.399
@@ -58,13 +48,14 @@ Webmaster: james<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/sv
 				c-9.532-12.373-14.362-27.989-14.362-46.464c0-16.691,2.62-34.662,7.782-53.367c5.137-18.645,12.646-36.045,22.298-51.738
 				c9.523-15.437,21.419-28.425,35.354-38.554c13.483-9.805,29.047-14.788,46.276-14.788c9.626,0,17.911,1.604,24.619,4.71
 				c6.716,3.183,12.083,7.398,16.384,12.86c4.378,5.589,7.706,12.16,9.916,19.55c2.27,7.62,3.405,15.667,3.405,23.859
-				C328.998,215.339,326.592,230.4,321.856,248.721z"/>
+				C328.998,215.339,326.592,230.4,321.856,248.721z" />
 		</g>
 	</g>
-	</svg>nordlund.ai<br>
-Hosted on <a href="https://pages.github.com/">GitHub Pages</a> <br>
-Theme by <a href="https://github.com/orderedlist">orderedlist</a> <br>
-Icons by <a href="https://www.flaticon.com/uicons">Flaticon</a>, <a href="https://www.flaticon.com/authors/freepik">freepik</a>, & <a href="https://www.flaticon.com/authors/anatoly">anatoly</a> <br>
-Comics via <a href="http://xkcd.r-forge.r-project.org/">R xkcd</a> & <a href="http://cmx.io/edit/">cmx.io</a>
+	</svg>nordlund.ai<br />
+Hosted on GitHub Pages <br />
+Theme by <a href="https://github.com/orderedlist">orderedlist</a> <br />
+Icons by <a href="https://www.flaticon.com/uicons">Flaticon</a>, <a href="https://www.flaticon.com/authors/freepik">freepik</a>, &amp; <a href="https://www.flaticon.com/authors/anatoly">anatoly</a> <br />
+Comics via <a href="http://xkcd.r-forge.r-project.org/">R xkcd</a> &amp; <a href="http://cmx.io/edit/">cmx.io</a>
 </small>
 </p>
+:ET
