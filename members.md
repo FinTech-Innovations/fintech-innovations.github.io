@@ -35,20 +35,6 @@ p.membername{
 
 <div style="display: flex; margin-top: 1cm;">
   <div class="memberpic">
-    <img src="/assets/img/mertdogan.png" class="member" alt="sarp"/>
-  </div>
-  <div class="member">
-    <p class="membername">Sarp Mertdogan</p>
-    <p style="text-align: center;">
-      <i class="fi-rr-form">C.V.</i> &emsp; 
-      <a href="https://www.lsu.edu/business/finance/profile-viewer.php?un=smertd1"><i class="fi-rr-globe">Website</i></a>
-    </p>
-    Sarp is a Ph.D. student in the finance department.
-  </div>
-</div>
-
-<div style="display: flex; margin-top: 1cm;">
-  <div class="memberpic">
     <img src="/assets/img/narayanan.png" class="member" alt="rajesh"/>
   </div>
   <div class="member">
