@@ -74,3 +74,17 @@ p.membername{
     Dimuthu is an Assistant Professor at LSU.
   </div>
 </div>
+
+<div style="display: flex; margin-top: 1cm;">
+  <div class="memberpic">
+    <img src="/assets/img/zhang.png" class="member" alt="gatsby"/>
+  </div>
+  <div class="member">
+    <p class="membername">Tengfei (Gatsby) Zhang</p>
+    <p style="text-align: center;">
+      <i class="fi-rr-form">C.V.</i> &emsp; 
+      <a href="https://sites.google.com/view/tengfeizhang/home"><i class="fi-rr-globe">Website</i></a>
+    </p>
+    Gatsby is a Ph.D. candidate at LSU.
+  </div>
+</div>

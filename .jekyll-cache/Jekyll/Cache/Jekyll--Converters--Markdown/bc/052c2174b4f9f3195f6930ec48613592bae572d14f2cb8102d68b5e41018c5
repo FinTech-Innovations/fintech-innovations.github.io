@@ -1,8 +1,4 @@
----
-layout: default
----
-
-<style>
+I"Ó<style>
 .filterDiv {
   margin-bottom: 15px;
   display: none;
@@ -47,7 +43,6 @@ a{
 
 
 </style>
-
 
 <script>
 filterSelection("all")
@@ -94,7 +89,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 </script>
 
-# Research
+<h1 id="research">Research</h1>
 
 <!--<div style="font-size:18px;"> FI.lab members study the impact of technological innovations in finance. </div>-->
 
@@ -103,12 +98,12 @@ for (var i = 0; i < btns.length; i++) {
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show All Tools</button>
   <!-- methods -->
-  <br/> <button class="btn" onclick="filterSelection('ml')"> Machine Learning</button>
-  <br/> <button class="btn" onclick="filterSelection('nlp')"> Natural Language Processing</button>
-  <br/> <button class="btn" onclick="filterSelection('sna')"> Social Network Analysis</button>
+  <br /> <button class="btn" onclick="filterSelection('ml')"> Machine Learning</button>
+  <br /> <button class="btn" onclick="filterSelection('nlp')"> Natural Language Processing</button>
+  <br /> <button class="btn" onclick="filterSelection('sna')"> Social Network Analysis</button>
   
   <!-- topics -->
-  <br/>
+  <br />
 </div>
 
 <div class="container">
@@ -152,3 +147,4 @@ for (var i = 0; i < btns.length; i++) {
   
 </div>
 
+:ET
