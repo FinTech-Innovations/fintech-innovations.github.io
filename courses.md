@@ -10,7 +10,7 @@ h2{
 
 # Courses from FI.lab Members
 
-## [4820 Financial Modeling & Analytics <br/> (*super spicy Python edition!*)](https://financedatascience.github.io)
+## [4820 Financial Modeling & Analytics <br/> (*super spicy Python edition!*)](https://learning-fin.tech)
 
 The purpose of this course is to teach students how to apply math and statistics to data in order to  produce  useful  information.   The  course  begins  with  an  overview  of  programming  principles and then advances to data manipulation, statistics (including regression), APIs, web scraping, and natural language processing.  Throughout, the emphasis is on the application of these tools, via the Python programming language, to financial datasets.
 
